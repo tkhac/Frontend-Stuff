@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
 body {
   margin: 0;
   padding: 0;
   background-color: #e9ebee;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -17,6 +20,27 @@ header {
   top: 0;
 }
 
+header .header-content {
+  width: 1012px;
+  margin: 0 auto;
+}
+
+header .header-content .search {
+  float: left;
+  border: none;
+}
+
+header .header-content .search input {
+  height: 30px;
+  width: 250px;
+}
+
+header .header-content div {
+  float: right;
+  height: 30px;
+  border-right: 0.5px solid #dddfe2;
+}
+
 .content {
   width: 1012px !important;
   margin: 55px auto;
@@ -26,7 +50,36 @@ nav {
   position: fixed;
   width: 180px;
   height: 100%;
-  border: 1px solid black;
+}
+
+nav div {
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+nav div label {
+  color: gray;
+}
+
+nav div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav div li {
+  height: 17px;
+  padding: 5px;
+  border: 0.5px solid transparent;
+}
+
+nav div li:hover {
+  height: 17px;
+  cursor: pointer;
+  background-color: #f6f7f9;
+  border: 0.5px solid #dddfe2;
+  border-radius: 5px;
 }
 
 .main-content {

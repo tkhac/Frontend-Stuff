@@ -22,7 +22,7 @@ header {
 
 header .header-content {
   width: 1012px;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 header .header-content .search {
@@ -31,14 +31,74 @@ header .header-content .search {
 }
 
 header .header-content .search input {
-  height: 30px;
-  width: 250px;
+  position: absolute;
+  height: 21px;
+  width: 415px;
+  margin: 5px;
+  margin-top: 0;
+  border: 1px solid #3b5998;
+  border-radius: 3px;
+  outline: none;
+  padding-left: 5px;
 }
 
 header .header-content div {
+  padding: 0 5px;
+  margin: 5px 0;
   float: right;
-  height: 30px;
-  border-right: 0.5px solid #dddfe2;
+  border-right: 0.5px solid #3b5c9f;
+}
+
+header .header-content .dropdown-div {
+  border-right: none;
+}
+
+header .header-content div:hover {
+  cursor: pointer;
+}
+
+header .header-content div p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+  margin: 5px;
+}
+
+header .header-content div img {
+  float: left;
+  width: 25px;
+  height: 25px;
+}
+
+header .header-content div .profile-image {
+  width: 30px;
+}
+
+header .header-content div button {
+  position: absolute;
+  border: none;
+  width: 46px;
+  height: 23px;
+  margin: 1px;
+  margin-left: 381px;
+  border-right: 1px solid #3b5998;
+  border-radius: 3px;
+  outline: none;
+}
+
+header .header-content div .search-button {
+  background: url(icons/header-icons.png) no-repeat 21px -618px;
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  padding: 0 16px;
+  border-radius: 3px;
+}
+
+header .header-content div div {
+  border: none;
+  margin: 0;
 }
 
 .content {
@@ -58,25 +118,48 @@ nav div {
   font-weight: 400;
 }
 
-nav div label {
+nav div h4 {
   color: gray;
+  margin: 3px 0;
+}
+
+nav .create a {
+  color: #365899;
+}
+
+nav .create a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 nav div ul {
   list-style-type: none;
   margin: 0;
+  margin-top: 5px;
   padding: 0;
 }
 
 nav div li {
   height: 17px;
-  padding: 5px;
+  padding: 3px 5px 8px 5px;
   border: 0.5px solid transparent;
+}
+
+nav div li p {
+  margin: 0 27px;
+  margin-top: 2px;
 }
 
 nav div li:hover {
   height: 17px;
   cursor: pointer;
+  background-color: #f6f7f9;
+  border: 0.5px solid #dddfe2;
+  border-radius: 5px;
+}
+
+nav div .active {
+  font-weight: bold;
   background-color: #f6f7f9;
   border: 0.5px solid #dddfe2;
   border-radius: 5px;
@@ -124,4 +207,74 @@ nav div li:hover {
   border: 0.5px solid #dddfe2;
   border-radius: 5px;
   margin-bottom: 12px;
+}
+
+.news-feed {
+  background: url("icons/logos.png") no-repeat 0 -1111px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
+.messenger {
+  background: url("icons/logos.png") no-repeat 0 -796px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
+.shortcut {
+  background: url("icons/logos.png") no-repeat 0 -985px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
+.explore {
+  background: url("icons/logos.png") no-repeat 0 -964px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
+.friends {
+  background: url("icons/header-icons.png") no-repeat 0 -279px;
+  width: 18px;
+  height: 23px;
+  margin: 0;
+  float: left;
+}
+
+.messages {
+  background: url("icons/messages.png") no-repeat -3px -249px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
+.notifications {
+  background: url("icons/header-icons.png") no-repeat -3px -328px;
+  width: 19px;
+  height: 19px;
+  margin: 0;
+  float: left;
+}
+
+.dropdown {
+  background: url("icons/messages.png") no-repeat -3px -614px;
+  width: 10px;
+  height: 6px;
+  margin: 7px !important;
+  float: left;
+}
+
+.profile img {
+  float: left;
+  width: 25px;
+  height: 20px;
 }

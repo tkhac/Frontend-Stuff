@@ -7,6 +7,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+textarea {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   position: fixed;
   height: 43px;
@@ -59,7 +63,7 @@ header .header-content div:hover {
 
 header .header-content div p {
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   float: left;
   margin: 5px;
@@ -99,11 +103,6 @@ header .header-content div .search-button {
 header .header-content div div {
   border: none;
   margin: 0;
-}
-
-.content {
-  width: 1012px !important;
-  margin: 55px auto;
 }
 
 nav {
@@ -165,6 +164,11 @@ nav div .active {
   border-radius: 5px;
 }
 
+.content {
+  width: 1012px !important;
+  margin: 55px auto;
+}
+
 .main-content {
   height: 100%;
   width: 100%;
@@ -193,6 +197,87 @@ nav div .active {
   border: 0.5px solid #dddfe2;
   border-radius: 5px;
   margin-bottom: 12px;
+}
+
+.timeline .new-post .post-type {
+  width: 498px;
+  height: 16px;
+  background-color: #f6f7f9;
+  border-bottom: 1px solid #dddfe2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 8px 0;
+}
+
+.timeline .new-post .post-type .type {
+  float: left;
+  margin: 0 4px;
+  padding: 0 6px 0 4px;
+  height: 16px;
+  border-right: 1px solid #ced0d4;
+  color: #365899;
+  cursor: pointer;
+}
+
+.timeline .new-post .post-type .active {
+  color: #4b4f56;
+}
+
+.timeline .new-post .post-type .type:last-of-type {
+  border: none;
+}
+
+.timeline .new-post .post-type .type p {
+  margin: 0;
+  margin-left: 5px;
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.timeline .new-post .add .add-div {
+  float: left;
+  margin: 0 4px;
+  padding: 8px 6px 8px 4px;
+  height: 16px;
+  background-color: #f6f7f9;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.timeline .new-post .add .add-div p {
+  color: #4b4f56;
+  margin: 0;
+  margin-left: 5px;
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.timeline .new-post .post img {
+  width: 45px;
+  height: 40px;
+  margin: 12px 0 0 12px;
+  float: left;
+  cursor: pointer;
+}
+
+.timeline .new-post .post textarea {
+  border: none;
+  resize: none;
+  width: 380px;
+  height: 35px;
+  float: left;
+  padding: 23px 48px 13px 12px;
+  outline: none;
+}
+
+.timeline .new-post .add {
+  height: 32px;
+  margin: 0 12px;
+  margin-top: 71px;
+  padding: 8px 0;
+  border-top: 1px solid #e9ebee;
 }
 
 .timeline .posts ul {
@@ -270,6 +355,33 @@ nav div .active {
   width: 10px;
   height: 6px;
   margin: 7px !important;
+  float: left;
+}
+
+.compose {
+  background: url("icons/new-post-icons.png") no-repeat -2px -340px;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  float: left;
+  margin-top: 2px;
+}
+
+.album {
+  background: url("icons/new-post-icons.png") no-repeat -2px -357px;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  float: left;
+  margin-top: 2px;
+}
+
+.live {
+  background: url("icons/new-post-icons.png") no-repeat -1px -307px;
+  width: 14px;
+  height: 10px;
+  margin: 0;
+  margin-top: 2px;
   float: left;
 }
 

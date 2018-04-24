@@ -84,6 +84,7 @@ header .header-content div button {
   border-right: 1px solid #3b5998;
   border-radius: 3px;
   outline: none;
+  background-color: #efefef;
 }
 
 header .header-content div .search-button {
@@ -429,7 +430,7 @@ nav div .active {
 }
 
 .timeline .posts ul li .post-footer .post-actions div:hover {
-  background-color: #eaeaea;
+  background-color: #efefef;
 }
 
 .timeline .posts ul li .post-footer .post-actions div div {

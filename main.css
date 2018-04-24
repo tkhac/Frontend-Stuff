@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
-
 body {
   margin: 0;
   padding: 0;
@@ -176,15 +175,36 @@ nav div .active {
   margin-right: 0;
 }
 
-.main-content .pages {
+.main-content .stories {
   margin-left: 12px;
   float: left;
-  width: 308px;
-  height: 400px;
+  width: 284px;
+  height: auto;
+  padding: 12px;
   background-color: #fff;
   border: 0.5px solid #dddfe2;
   border-radius: 5px;
 }
+
+.main-content .stories .title {
+  padding-bottom: 12px;
+  height: 16px;
+}
+
+.main-content .stories .title p {
+  margin: 0;
+  color: #4b4f56;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.main-content .stories ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content .stories .story {}
 
 .timeline {
   width: 500px;
@@ -287,11 +307,114 @@ nav div .active {
 }
 
 .timeline .posts ul li {
-  height: 155px;
+  height: auto;
   background-color: #fff;
   border: 0.5px solid #dddfe2;
   border-radius: 5px;
   margin-bottom: 12px;
+  padding: 12px 12px 5px 12px;
+}
+
+.timeline .posts ul li .post-header {
+  height: 43px;
+  margin-bottom: 5px;
+}
+
+.timeline .posts ul li .post-header img {
+  width: 45px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.timeline .posts ul li .post-header p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #365899;
+  cursor: pointer;
+}
+
+.timeline .posts ul li .post-header span {
+  font-size: 12px;
+  color: #616770;
+  cursor: pointer;
+}
+
+.timeline .posts ul li .post-header span:hover {
+  text-decoration: underline;
+}
+
+.timeline .posts ul li .post-content p {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.timeline .posts ul li .post-content img {
+  width: 476px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.timeline .posts ul li .post-footer {
+  font-size: 13px;
+  color: #616770;
+}
+
+.timeline .posts ul li .post-footer p {
+  margin: 0;
+}
+
+.timeline .posts ul li .post-footer .post-info {
+  height: 20px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.timeline .posts ul li .post-footer .post-info .likes {
+  float: left;
+}
+
+.timeline .posts ul li .post-footer .post-info .likes p {
+  float: left;
+  margin-left: 2px;
+}
+
+.timeline .posts ul li .post-footer .post-info .comments-shares {
+  float: right;
+}
+
+.timeline .posts ul li .post-footer .post-actions {
+  height: 32px;
+  padding: 0 4px;
+  margin-top: 5px;
+}
+
+.timeline .posts ul li .post-footer .post-actions div {
+  float: left;
+  width: 155px;
+  height: 32px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.timeline .posts ul li .post-footer .post-actions div:hover {
+  background-color: #eaeaea;
+}
+
+.timeline .posts ul li .post-footer .post-actions div div {
+  width: 18px;
+  height: 18px;
+  margin: 7px -30px 7px 25px;
+}
+
+.timeline .posts ul li .post-footer .post-actions p {
+  height: auto;
+  padding: 9px 0;
 }
 
 .news-feed {
@@ -382,6 +505,48 @@ nav div .active {
   height: 10px;
   margin: 0;
   margin-top: 2px;
+  float: left;
+}
+
+.picture {
+  background: url("icons/logos.png") no-repeat -2px -693px;
+  width: 16px;
+  height: 16px;
+  float: left;
+}
+
+.activity {
+  background: url("icons/logos.png") no-repeat -1px -587px;
+  width: 18px;
+  height: 18px;
+  float: left;
+}
+
+.like-icon {
+  background: url("icons/like-logos.png") no-repeat 0 -326px;
+  width: 18px;
+  height: 18px;
+  float: left;
+}
+
+.like {
+  background: url("icons/like-logos.png") no-repeat 0 -193px;
+  width: 18px;
+  height: 18px;
+  float: left;
+}
+
+.comment {
+  background: url("icons/like-logos.png") no-repeat 0 -156px;
+  width: 18px;
+  height: 18px;
+  float: left;
+}
+
+.share {
+  background: url("icons/like-logos.png") no-repeat -19px -270px;
+  width: 18px;
+  height: 18px;
   float: left;
 }
 

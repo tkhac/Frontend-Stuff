@@ -74,10 +74,6 @@ header .header-content div img {
   height: 25px;
 }
 
-header .header-content div .profile-image {
-  width: 30px;
-}
-
 header .header-content div button {
   position: absolute;
   border: none;
@@ -204,7 +200,37 @@ nav div .active {
   padding: 0;
 }
 
-.main-content .stories .story {}
+.main-content .stories .story {
+  height: 56px;
+  margin-bottom: 8px;
+}
+
+.main-content .stories .story img {
+  height: 48px;
+  width: 48px;
+  float: left;
+  border: 2px solid #4080ff;
+  border-radius: 50%;
+}
+
+.main-content .stories .story .story-info {
+  margin-left: 65px;
+  padding-top: 5px;
+}
+
+.main-content .stories .story p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #365899;
+  cursor: pointer;
+}
+
+.main-content .stories .story span {
+  font-size: 13px;
+  color: #90949c;
+  cursor: pointer;
+}
 
 .timeline {
   width: 500px;
@@ -275,7 +301,7 @@ nav div .active {
 }
 
 .timeline .new-post .post img {
-  width: 45px;
+  width: 40px;
   height: 40px;
   margin: 12px 0 0 12px;
   float: left;
@@ -321,7 +347,7 @@ nav div .active {
 }
 
 .timeline .posts ul li .post-header img {
-  width: 45px;
+  width: 40px;
   height: 40px;
   float: left;
   cursor: pointer;
@@ -552,6 +578,6 @@ nav div .active {
 
 .profile img {
   float: left;
-  width: 25px;
+  width: 20px;
   height: 20px;
 }

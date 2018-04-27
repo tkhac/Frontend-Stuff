@@ -143,6 +143,7 @@ nav div li {
 nav div li p {
   margin: 0 27px;
   margin-top: 2px;
+  color: #1d2129;
 }
 
 nav div li:hover {
@@ -158,6 +159,10 @@ nav div .active {
   background-color: #f6f7f9;
   border: 0.5px solid #dddfe2;
   border-radius: 5px;
+}
+
+.content-wrapper {
+  width: calc(100% - 205px);
 }
 
 .content {
@@ -581,4 +586,71 @@ nav div .active {
   float: left;
   width: 20px;
   height: 20px;
+}
+
+.sidebar {
+  float: right;
+  position: absolute;
+  right: 0;
+  overflow: scroll;
+  margin-top: -12px;
+  width: 205px;
+  height: 100%;
+  border-left: 1px solid #ccc;
+}
+
+.sidebar div {
+  margin: 5px 0;
+}
+
+.sidebar div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar div label {
+  padding: 8px 0 8px 8px;
+  height: 16px;
+  color: #4c4c4c;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sidebar div ul li {
+  padding: 4px 0 4px 8px;
+  height: 32px;
+}
+
+.sidebar div ul li:hover {
+  background-color: #dddfe2;
+  cursor: pointer;
+}
+
+.sidebar div ul li img {
+  float: left;
+  height: 34px;
+  widows: 34px;
+}
+
+.sidebar div ul li div {
+  margin-left: 34px;
+}
+
+.sidebar div ul li p {
+  margin: 10px 0 10px 0;
+  padding-left: 8px;
+  color: #333;
+  font-size: 12px;
+}
+
+.sidebar div ul li div .online {
+  margin-right: 12px;
+  position: relative;
+  bottom: 25px;
+  float: right;
+  height: 6px;
+  width: 6px;
+  background-color: #42b72a;
+  border-radius: 50%;
 }

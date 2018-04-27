@@ -473,16 +473,48 @@ nav div .active {
   float: left;
 }
 
-.explore {
-  background: url("icons/logos.png") no-repeat 0 -964px;
+.navigation .macs {
+  background: url("icons/logos.png") no-repeat 0 -1573px;
   width: 20px;
   height: 20px;
   margin: 0;
   float: left;
 }
 
+.navigation .uni {
+  background: url("icons/logos.png") no-repeat 0 -1467px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
+.navigation .pages {
+  background: url("icons/logos.png") no-repeat 0 -1216px;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
+.navigation .events {
+	background: url("icons/logos.png") no-repeat 0 -880px;
+	width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
+.navigation .groups {
+	background: url("icons/logos.png") no-repeat 0 -985px;
+	width: 20px;
+  height: 20px;
+  margin: 0;
+  float: left;
+}
+
 .friends {
-  background: url("icons/header-icons.png") no-repeat 0 -279px;
+  background: url("icons/header-icons.png") no-repeat 4px -279px;
   width: 18px;
   height: 23px;
   margin: 0;
@@ -490,7 +522,7 @@ nav div .active {
 }
 
 .messages {
-  background: url("icons/messages.png") no-repeat -3px -249px;
+  background: url("icons/messages.png") no-repeat 4px -249px;
   width: 20px;
   height: 20px;
   margin: 0;
@@ -498,9 +530,9 @@ nav div .active {
 }
 
 .notifications {
-  background: url("icons/header-icons.png") no-repeat -3px -328px;
-  width: 19px;
-  height: 19px;
+  background: url("icons/header-icons.png") no-repeat 4px -328px;
+  width: 20px;
+  height: 20px;
   margin: 0;
   float: left;
 }
